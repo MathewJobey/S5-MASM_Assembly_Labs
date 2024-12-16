@@ -11,7 +11,7 @@ This repository contains MASM Assembly Language programs from my 5th semester la
    👉 [How to Download MASM and Mount it in DOSBox](https://youtu.be/12BUeTAQcKg?si=rfeCpwApQj7sKqKb)
 
 2. **Place `.asm` Files**: 
-   - 🔴 **Ensure all `.asm` files are placed in the same folder** where you mounted MASM in DOSBox (e.g., `C:\Dbox` in my case).  
+   - 🔴 **Ensure all `.asm` files are placed in the same folder** where you mounted MASM in DOSBox (e.g., `C:\Dbox`).  
    - This step is necessary for MASM and DOSBox to locate and assemble your files without errors.
 
 3. **Common MASM Commands**:  
