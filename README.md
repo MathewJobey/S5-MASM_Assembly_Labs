@@ -18,7 +18,7 @@ This repository contains MASM Assembly Language programs from my 5th semester la
    Use the following commands to assemble, link, and execute your programs in MASM:
 
    ```bash
-   mount c c:\<FolderPath>  # Mount the folder with MASM and .asm files
+   mount c c:\< FolderPath >  # Mount the folder with MASM and .asm files
    c:                       # Switch to the mounted directory
    masm filename.asm        # Assemble the .asm file
    link filename.obj        # Link the object file
