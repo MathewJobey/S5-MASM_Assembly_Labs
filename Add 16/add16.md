@@ -1,3 +1,5 @@
+![Screenshot 2025-02-03 215803](https://github.com/user-attachments/assets/8b0cd197-2f6c-4565-8e27-687cc56471f8)
+
 # Assembly Code Breakdown for 16-bit Addition
 
 This document explains a MASM assembly code example that adds two 16-bit numbers and handles an overflow using the carry flag. It also details how the resulting bytes are represented in memory.
