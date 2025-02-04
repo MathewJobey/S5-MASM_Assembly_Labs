@@ -1,4 +1,4 @@
-![alt text](<Screenshot 2025-02-04 170803.png>)
+![Screenshot 2025-02-04 170803](https://github.com/user-attachments/assets/812b2759-5af6-4063-ba2f-2a784fbca66e)
 # Assembly Code Breakdown for 32-bit Addition
 
 This document explains a MASM assembly code example that adds two 32-bit numbers while handling overflow using the carry flag. Additionally, we will analyze the output from the debug session.
