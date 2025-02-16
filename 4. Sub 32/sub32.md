@@ -1,3 +1,4 @@
+![Screenshot 2025-02-16 220216](https://github.com/user-attachments/assets/06ec1b56-3d76-4696-ac41-bbc6c0f6d49d)
 # Assembly Code Breakdown for 32-bit Subtraction
 
 This document explains a MASM assembly code example that subtracts two 32-bit numbers while handling borrow using the carry flag. Additionally, we will analyze the output from the debug session.
