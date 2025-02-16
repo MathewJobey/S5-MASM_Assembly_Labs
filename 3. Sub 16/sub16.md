@@ -1,3 +1,4 @@
+![Screenshot 2025-02-16 221912](https://github.com/user-attachments/assets/6092dc3a-d66d-4a55-a6e6-583251f87438)
 # Assembly Code Breakdown for 16-bit Subtraction
 
 This document explains a MASM assembly code example that subtracts two 16-bit numbers and handles a borrow using the carry flag. It also details how the resulting bytes are represented in memory.
