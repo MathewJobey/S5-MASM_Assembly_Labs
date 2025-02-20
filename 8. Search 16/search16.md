@@ -4,9 +4,6 @@
 
 ## Overview
 This assembly program searches for a specific 16-bit key value in an array stored in memory. If the key is found, it prints **"KEY FOUND!"**; otherwise, it prints **"KEY NOT FOUND!"**.
-
-The program uses **8086 assembly language** and executes using **DOS interrupts (INT 21H)** for input/output operations.
-
 ---
 
 ## How It Works
