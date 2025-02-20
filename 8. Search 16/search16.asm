@@ -1,0 +1,46 @@
+ASSUME CS:CODE,DS:DATA
+
+PRINT MACRO MSG
+    LEA DX,MSG
+    MOV AH,09H
+    INT 21H
+ENDM
+
+DATA SEGMENT
+array DW 1000H,1010H,2000H,2020H,5000H
+len EQU ($-array)
+key DW 5000H
+str1 DB "KEY FOUND!$"
+str2 DB "KEY NOT FOUND!$"
+DATA ENDS
+
+CODE SEGMENT
+START:
+    MOV AX,DATA
+    MOV DS,AX
+
+    LEA SI,array
+    MOV CX,len
+    MOV BX,key
+
+NEXT:
+    MOV AX,[SI]
+    CMP AX,BX
+    JE FOUND
+    
+    INC SI
+    INC SI
+    DEC CX
+    JNZ NEXT
+    PRINT str2
+    JMP EXIT
+
+FOUND:
+    PRINT str1
+
+EXIT:
+    MOV AH,04CH
+    INT 21H
+
+CODE ENDS
+END START

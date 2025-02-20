@@ -1,0 +1,37 @@
+ASSUME CS:CODE,DS:DATA
+
+DATA SEGMENT
+string1 dw 0005h,0004h,0003h,0002h,0001h
+DATA ENDS
+
+CODE SEGMENT
+START:
+    MOV AX,DATA
+    MOV DS,AX
+
+UP2:
+    MOV CL,04H
+    LEA SI,string1
+
+UP1:
+    MOV AX,[SI]
+    MOV BX,[SI+2]
+    CMP AX,BX
+    JC DOWN
+
+    MOV DX,[SI+2]
+    XCHG [SI],DX
+    MOV [SI+2],DX
+
+DOWN:
+    INC SI
+    INC SI 
+    DEC CL
+    JNZ UP1
+    DEC CH
+    JNZ UP2
+    MOV AH,04CH
+    INT 21H
+
+CODE ENDS
+END START
