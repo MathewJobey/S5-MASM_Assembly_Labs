@@ -1,3 +1,4 @@
+![Screenshot 2025-02-20 230532](https://github.com/user-attachments/assets/664e33ff-2fb5-4546-b5d5-f4ae9d920e51)
 # Assembly Code Breakdown for 16-bit Multiplication
 
 This document explains a MASM assembly code example that multiplies two 16-bit numbers and stores the result in memory.
