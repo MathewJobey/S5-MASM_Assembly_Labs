@@ -1,3 +1,5 @@
+![Screenshot 2025-02-20 232825](https://github.com/user-attachments/assets/96c80873-1591-4466-bae3-3a76e54b24f2)
+
 # Assembly Code Breakdown for 16-bit Division
 
 This document explains a MASM assembly code example that performs 16-bit division and stores the quotient and remainder in memory. It also interprets the output shown in the provided image.
